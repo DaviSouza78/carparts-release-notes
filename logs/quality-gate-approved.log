@@ -1,0 +1,18 @@
+Execução: npm run eval:pass
+Data da evidência: 18/09/2026
+
+PASS rel-001
+PASS rel-002
+PASS rel-003
+PASS rel-004
+PASS rel-005
+PASS rel-006
+PASS rel-007
+PASS rel-008
+PASS rel-009
+PASS rel-010
+Resultado: 10/10 (100%)
+Limiar: 90%
+QUALITY GATE: APROVADO
+Exit code: 0
+

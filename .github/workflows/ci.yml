@@ -1,0 +1,35 @@
+name: quality-gate-release-notes
+
+on:
+  pull_request:
+    paths:
+      - "src/**"
+      - "prompts/**"
+      - "eval/**"
+      - "scripts/**"
+      - "test/**"
+      - "package.json"
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --ignore-scripts
+      - run: npm run lint
+      - run: npm test
+      - name: Scan de segredos
+        uses: gitleaks/gitleaks-action@v2
+      - name: Avaliação do prompt
+        run: npm run eval:pass
+      - name: Controle de custo
+        run: node -e "const mensal=Number(process.env.CUSTO_MENSAL_ESTIMADO_USD||0); if(mensal>300) process.exit(1); console.log('Custo mensal estimado: US$ '+mensal.toFixed(2))"
+        env:
+          CUSTO_MENSAL_ESTIMADO_USD: "12.00"

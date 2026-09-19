@@ -1,0 +1,21 @@
+Execução: npm run eval:fail
+Data da evidência: 18/09/2026
+
+PASS rel-001
+PASS rel-002
+PASS rel-003
+FAIL rel-004
+  proibido: d4, dependência
+FAIL rel-005
+  proibido: e5, merge
+FAIL rel-006
+  ausente: Revisar
+PASS rel-007
+PASS rel-008
+PASS rel-009
+PASS rel-010
+Resultado: 7/10 (70%)
+Limiar: 90%
+QUALITY GATE: REPROVADO
+Exit code: 1 (reprovação proposital e esperada)
+

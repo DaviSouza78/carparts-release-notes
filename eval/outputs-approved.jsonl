@@ -1,0 +1,11 @@
+{"id":"rel-001","output":"Nova funcionalidade: filtro por período disponível."}
+{"id":"rel-002","output":"Correção: cálculo de frete ajustado."}
+{"id":"rel-003","output":"Segurança: sessões com token expirado são bloqueadas."}
+{"id":"rel-004","output":"Alteração interna sem impacto para clientes."}
+{"id":"rel-005","output":"Alteração interna sem impacto para clientes."}
+{"id":"rel-006","output":"Revisar: não há contexto suficiente para uma nota pública."}
+{"id":"rel-007","output":"Nova funcionalidade: relatórios podem ser exportados em PDF."}
+{"id":"rel-008","output":"Interna: organização técnica sem mudança para clientes."}
+{"id":"rel-009","output":"Correção: histórico de pedidos fictícios voltou a funcionar."}
+{"id":"rel-010","output":"Nova funcionalidade: aviso de manutenção programada disponível."}
+

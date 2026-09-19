@@ -1,0 +1,16 @@
+{
+  "name": "carparts-release-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node --check src/release-notes.mjs && node --check src/validation.mjs && node --check scripts/eval-prompt.mjs",
+    "test": "node --test",
+    "eval:pass": "node scripts/eval-prompt.mjs eval/outputs-approved.jsonl",
+    "eval:fail": "node scripts/eval-prompt.mjs eval/outputs-rejected.jsonl"
+  },
+  "dependencies": {
+    "@google/genai": "^1.20.0"
+  }
+}
+

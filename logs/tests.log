@@ -1,0 +1,11 @@
+Execução: npm run lint && npm test
+Data da evidência: 18/09/2026
+
+Lint: aprovado
+Testes: 2
+Aprovados: 2
+Reprovados: 0
+
+- aceita uma saída válida
+- rejeita tipo desconhecido e revisão ausente
+

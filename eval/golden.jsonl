@@ -1,0 +1,11 @@
+{"id":"rel-001","input":"a1 feat: adicionar filtro por período","must_include":["Nova funcionalidade"],"must_not_include":["a1"]}
+{"id":"rel-002","input":"b2 fix: corrigir cálculo de frete","must_include":["Correção"],"must_not_include":["b2"]}
+{"id":"rel-003","input":"c3 security: bloquear token expirado","must_include":["Segurança"],"must_not_include":["c3"]}
+{"id":"rel-004","input":"d4 chore: atualizar dependência interna","must_include":[],"must_not_include":["d4","dependência"]}
+{"id":"rel-005","input":"e5 merge branch release","must_include":[],"must_not_include":["e5","merge"]}
+{"id":"rel-006","input":"f6 fix: ajuste sem contexto suficiente","must_include":["Revisar"],"must_not_include":["f6"]}
+{"id":"rel-007","input":"g7 feat: exportar relatório em PDF","must_include":["Nova funcionalidade"],"must_not_include":["g7"]}
+{"id":"rel-008","input":"h8 refactor: reorganizar pacote interno","must_include":["Interna"],"must_not_include":["h8"]}
+{"id":"rel-009","input":"i9 fix: restaurar histórico de pedidos fictícios","must_include":["Correção"],"must_not_include":["i9"]}
+{"id":"rel-010","input":"j0 feat: aviso de manutenção programada","must_include":["Nova funcionalidade"],"must_not_include":["j0"]}
+
