@@ -1,10 +1,11 @@
 # Carparts Release Notes
 
-Pacote de evidências dos entregáveis E3, E4, E5 e E6 da Aula 07.
+Pacote de evidências dos entregáveis E1 a E6 da Aula 07.
 
 ## Estrutura
 
 - `docs/opal/release-notes.md`: ficha técnica e governança do mini-app.
+- `docs/opportunities.md`: mapa priorizado de oportunidades, riscos e custos.
 - `prompts/release-notes.v1.md`: prompt versionado e JSON Schema.
 - `src/release-notes.mjs`: integração adaptada para a Gemini API.
 - `docs/ai-studio-evidence.md`: configuração realizada e limitação encontrada no AI Studio.
